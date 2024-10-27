@@ -42,3 +42,7 @@ def max_revenue(n, lengths, prices):
 
     # The maximum revenue achievable for `n` minutes is in dp[n]
     return dp[n]
+
+### Time Complexity
+
+![Time Complexity Plot](./Figure_2.png)
