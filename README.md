@@ -26,6 +26,10 @@ This solution uses **dynamic programming** to build an array `dp` where `dp[i]` 
    - For each slot length in `lengths`, if the slot length is less than or equal to `i`, update `dp[i]` to the maximum revenue achievable for that minute.
 3. The final answer will be stored in `dp[n]`.
 
+### Time Complexity
+
+![Time Complexity Plot](./Figure_2.png)
+
 ## Code Implementation
 
 ```python
@@ -43,6 +47,4 @@ def max_revenue(n, lengths, prices):
     # The maximum revenue achievable for `n` minutes is in dp[n]
     return dp[n]
 
-### Time Complexity
 
-![Time Complexity Plot](./Figure_2.png)
