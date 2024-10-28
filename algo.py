@@ -45,8 +45,8 @@ scale_factor = experimental_avg / theoretical_avg  # Scale theoretical to match 
 for i in range(len(theor_time)):
     theor_time[i] *= scale_factor
 
-print(theor_time)
-print(expt_time)
+print("Scaled Theoretical Time", theor_time)
+print("Experimental Time", expt_time)
 
 # _____________________________________________________________________________________________________________________
 # Plotting
